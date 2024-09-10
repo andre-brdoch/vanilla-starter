@@ -1,0 +1,31 @@
+{
+  "name": "vanilla-starter",
+  "version": "1.0.0",
+  "description": "Starter for a vanilla project with live reload file serving, eslint and prettier",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "live-server src --port=8080",
+    "lint:check": "eslint . --ext .html,.js",
+    "lint:fix": "eslint . --ext .html,.js --fix",
+    "prettier:check": "prettier .",
+    "prettier:fix": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andre-brdoch/vanilla-starter.git"
+  },
+  "author": "André Brdoch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andre-brdoch/vanilla-starter/issues"
+  },
+  "homepage": "https://github.com/andre-brdoch/vanilla-starter#readme",
+  "devDependencies": {
+    "@andre-brdoch/eslint-config": "^0.0.4",
+    "eslint": "^7",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-html": "^8.1.1",
+    "live-server": "^1.2.2",
+    "prettier": "^3.3.3"
+  }
+}
